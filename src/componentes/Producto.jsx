@@ -2,7 +2,7 @@ import axios from 'axios'
 import { useQuery } from 'react-query'
 
 function getProductos() {
-    return axios.get('http://localhost:8080/sql?sql=select * from products')
+    return axios.get('http://localhost:7788/sql?sql=select * from products')
 }
 
 export function Producto() {

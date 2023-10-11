@@ -12,4 +12,4 @@ export function Home() {
             <Footer></Footer>
         </div>
     )
-}ºº
+}
