@@ -21,3 +21,5 @@ docker pull postgres
 docker run -d --name curso -p 5432:5432 -e POSTGRES_PASSWORD=123456 postgres
 
 yarn add ethers
+
+yarn add react-hook-form
